@@ -1,0 +1,37 @@
+{
+  "cli": {
+    "version": ">= 12.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "gradleCommand": ":app:assembleDebug"
+      },
+      "env": {
+        "GEMINI_API_KEY": "AIzaSyCUElqQnlo7A83y01HLb_IeJkqMsVcRmAU"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "GEMINI_API_KEY": "AIzaSyCUElqQnlo7A83y01HLb_IeJkqMsVcRmAU"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "GEMINI_API_KEY": "AIzaSyCUElqQnlo7A83y01HLb_IeJkqMsVcRmAU"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

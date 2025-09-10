@@ -1,12 +1,15 @@
 {
   "expo": {
-    "name": "smart_park",
-    "slug": "smart_park",
-    "version": "1.0.0",
+    "name": "AI Parking Inspector",
+    "slug": "ai-parking-inspector",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/parkicon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "updates": {
+      "enabled": false
+    },
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -16,14 +19,27 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.ddey78.aiparkinginspector",
+      "versionCode": 2,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/parkicon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/parkicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ecefaf1a-6567-4a7b-a8e8-61bb2003f49d"
+      }
+    },
+    "owner": "ddey78"
   }
 }
