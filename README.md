@@ -101,7 +101,7 @@ eas build --platform android --profile production
 
 **Latest APK Build**: [Download APK v1.0.1](https://expo.dev/accounts/ddey78/projects/ai-parking-inspector/builds/0b52e351-1c4f-45ee-9bce-f2b3d6ccef5f)
 
-*Note: The APK link will be updated with the latest build once completed*
+*Build Status: In Progress - The APK will be available for download once the build completes*
 
 ## 🎯 How to Use
 
