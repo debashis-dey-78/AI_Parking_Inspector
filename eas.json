@@ -10,7 +10,7 @@
         "gradleCommand": ":app:assembleDebug"
       },
       "env": {
-        "GEMINI_API_KEY": "AIzaSyCUElqQnlo7A83y01HLb_IeJkqMsVcRmAU"
+        "GEMINI_API_KEY": "$GEMINI_API_KEY"
       }
     },
     "preview": {
@@ -19,7 +19,7 @@
         "buildType": "apk"
       },
       "env": {
-        "GEMINI_API_KEY": "AIzaSyCUElqQnlo7A83y01HLb_IeJkqMsVcRmAU"
+        "GEMINI_API_KEY": "$GEMINI_API_KEY"
       }
     },
     "production": {
@@ -27,7 +27,7 @@
         "buildType": "apk"
       },
       "env": {
-        "GEMINI_API_KEY": "AIzaSyCUElqQnlo7A83y01HLb_IeJkqMsVcRmAU"
+        "GEMINI_API_KEY": "$GEMINI_API_KEY"
       }
     }
   },

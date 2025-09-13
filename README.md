@@ -63,6 +63,8 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 **Note**: Get your free Gemini API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
 
+**⚠️ Security Warning**: Never commit your `.env` file to version control. The `.env` file is already included in `.gitignore` to prevent accidental commits.
+
 ### 4. Start the Development Server
 
 ```bash

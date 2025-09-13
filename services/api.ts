@@ -8,7 +8,11 @@ import { convertImageToBase64 } from './imageUtils';
 import { GEMINI_API_KEY } from '@env';
 
 // Initialize Gemini AI with environment variable
-const API_KEY = GEMINI_API_KEY || 'AIzaSyCUElqQnlo7A83y01HLb_IeJkqMsVcRmAU';
+const API_KEY = GEMINI_API_KEY;
+
+if (!API_KEY) {
+  throw new Error('GEMINI_API_KEY environment variable is required but not set');
+}
 const GEMINI_MODEL = 'gemini-1.5-flash';
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ model: GEMINI_MODEL });
