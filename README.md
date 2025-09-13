@@ -99,9 +99,9 @@ eas build --platform android --profile production
 
 ## 📱 APK Download
 
-**Latest APK Build**: [Download APK v1.0.0](https://expo.dev/artifacts/eas/dWWr4ior6Th55xVqfJxyS3.apk)
+**Latest APK Build**: [Download APK v1.0.2](https://expo.dev/accounts/ddey78/projects/ai-parking-inspector/builds/eab8fe67-2e5e-42fd-9fdb-570388ae0ae3)
 
-*Ready for download - This is the stable build with the custom parking icon*
+*Ready for download - Latest build with updated parking icon and code improvements*
 
 ## 🎯 How to Use
 
