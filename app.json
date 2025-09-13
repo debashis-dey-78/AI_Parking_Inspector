@@ -2,7 +2,7 @@
   "expo": {
     "name": "AI Parking Inspector",
     "slug": "ai-parking-inspector",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/parkicon.png",
     "userInterfaceStyle": "light",
@@ -11,7 +11,7 @@
       "enabled": false
     },
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/parkicon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,7 +20,7 @@
     },
     "android": {
       "package": "com.ddey78.aiparkinginspector",
-      "versionCode": 2,
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/parkicon.png",
         "backgroundColor": "#ffffff"
